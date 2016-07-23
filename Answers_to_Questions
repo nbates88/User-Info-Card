@@ -1,0 +1,26 @@
+in memory, local storage, remote data store, or any other system that you think makes sense. Please describe your approach to this question.
+
+You may use any library dependencies that you think will assist in this task. Please explain any libraries you include and why you used them
+
+Please provide a brief description of your approach to this question, and be prepared to discuss your solution in detail.
+
+How would you persist this information on a server? What responsibilities would the server have? What responsibilities would the client have? How would you retrieve this information from the server?
+
+How would you incorporate this functionality into an existing site architecture that has inline styling and inline javascript?
+
+
+
+1) Storage:
+For the purpose of this exercise, I have decided to store the user's data in local storage. This will allow for data persistence upon page reload/refresh, it is quick and is suitable for the scope of this project. If this were to go into production, I would consider using a remote data store as it is more scalable and it will be necessary to store larger amounts of data. It is also more secure
+
+2) Libraries Used:
+x-editable to allow for inline editing
+bootstrap and font awesome for icons and some CSS benefits of bootstrap
+I used both of these libraries because it is faster than creating the functionality myself. I am a proponent for incorporating libraries that already exist that perform as needed as it allows for faster turn around.
+
+3) SASS Design:
+	-I used the flex box model for the styling of the card. Some other viable options would be bootstrap columns or a table. However, I find the flex box model easier to work with and capable of handling responsiveness. I removed the border from around the image because I think it looks cleaner. I also kept the default color/underline of the editable text that comes with x-editable because I think it is a good indication to the end user that these objects are editable.
+
+4) Data Persistence and client/server responsibilities:
+
+5) Incorporation: 

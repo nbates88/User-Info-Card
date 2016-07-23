@@ -17,7 +17,6 @@ function readURL(input) {
             userObject.userAvatar = e.target.result;
             userInfo.saveUser(userObject);
         };
-
         reader.readAsDataURL(input.files[0]);
     }
 }
