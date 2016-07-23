@@ -1,0 +1,55 @@
+/* line 1, main.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 5, main.scss */
+body {
+  margin: 25px; }
+  /* line 7, main.scss */
+  body .flex-container {
+    padding: 25px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    border: 2px solid #D3D3D3;
+    border-radius: 10px;
+    width: 35%;
+    min-width: 200px;
+    max-width: 450px;
+    flex-direction: row;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24); }
+    /* line 23, main.scss */
+    body .flex-container .user-pic {
+      flex-basis: 35%;
+      height: auto; }
+      /* line 26, main.scss */
+      body .flex-container .user-pic .image-upload > input {
+        display: none; }
+      /* line 29, main.scss */
+      body .flex-container .user-pic .img-responsive {
+        background: #6495ED;
+        border-radius: 10px;
+        height: auto;
+        width: auto;
+        max-width: 100%;
+        max-height: 150px; }
+    /* line 38, main.scss */
+    body .flex-container .user-info {
+      flex-basis: 45%; }
+      /* line 40, main.scss */
+      body .flex-container .user-info h3 {
+        margin-top: 0px; }
+      /* line 43, main.scss */
+      body .flex-container .user-info li {
+        list-style-type: none;
+        font-family: Sans-serif, Times; }
+        /* line 46, main.scss */
+        body .flex-container .user-info li i {
+          margin-bottom: 10px;
+          margin-right: 10px; }
+
+/*# sourceMappingURL=main.css.map */
